@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Nunito:wght@200&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins&display=swap')
+
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+body
+	background-color: #FFFFFF
+
+.main
+	width: 100vw
+	height: 100vh
+	background-color: #e2e0e0
+
+	& .content
+		width: 60vw
+		height: 40vh
+		margin: 0 auto
+		box-sizing: border-box
+
+		display: flex
+		flex-direction: row
+		justify-content: center
+		align-items: center
+
+		& .frm-login
+			width: 20vw
+			height: 49.9vh
+			margin-top: 49.7%
+			background-color: #f7f8ff
+			border: 1px solid black
+
+			display: flex
+			flex-direction: column
+
+			& .frm-login-titulo
+				height: 30%
+				background-color: #e8eaf7
+				
+				& h1
+					color: #222848
+					font-family: 'Kolker Brush', cursive
+					font-size: 120px
+					text-align: center
+
+			& .login
+				width: 100%
+				margin: 7% auto
+				font-size: 30px
+				font-weight: 400
+				font-family: 'Poppins', sans-serif
+
+				display: flex
+				flex-direction: column
+
+				& label
+					margin: 5px auto 2px auto
+
+				& input
+					font-size: 30px
+					width: 80%
+					border-radius: 5px
+					margin: auto auto
+
+					&[type=submit]
+						margin: 30px auto 0 auto
+
+		& .frm-imagem
+			margin-top: 50%
+			& img
+				max-width: 50vw
+				max-height: 50vh
